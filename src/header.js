@@ -59,6 +59,7 @@ export default function header() {
 //Remove function 
 function remove() {
     const content = document.querySelector('.content');
+
     const pageContent = document.querySelector('.inner');
     if (pageContent) {
         content.removeChild(pageContent);

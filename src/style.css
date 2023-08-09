@@ -23,7 +23,13 @@ body {
 .content {
     height: 100%;
     display: grid;
-    grid-template-rows: 10rem 1fr 3rem;
+    grid-template-rows: 10rem 1fr;
+}
+
+.inner {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 3rem;
 }
 
 header {
@@ -218,4 +224,28 @@ footer {
 
 footer svg {
     fill: var(--sec-col);
+}
+
+/* Contact Page */
+
+.contact-sec {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.map-container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--sec-col);
+    width: 80%;
+    height: 90%;
+    justify-items: center;
+}
+
+.map-img {
+    height: 90%;
+    width: 90%;
 }
